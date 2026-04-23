@@ -61,7 +61,7 @@ function HUD2_setMaxOps( player, command, arguments )
 	
 	return false;
 end
-concommand.Add("HUD2_setMaxOps", setHUD2MaxOps, nil);
+concommand.Add("HUD2_setMaxOps", HUD2_setMaxOps, nil);
 
 function HUD2_showStats( player, command, arguments )
 	
